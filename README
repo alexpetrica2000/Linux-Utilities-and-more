@@ -1,0 +1,18 @@
+	Realizarea temei a durat cam 15 ore. Problemele au fost angrenante si folositoare,
+intrucat am creat proprii utilitare din UNIX.Am invatat sa alocam dinamic si sa folosim 
+siruri de caractere,vectori,pointeri,sa eliberam memoria. Principala functie folosita 
+a fost init_sir sau init_matrice, care imi aloca dinamic o matrice sau un vector
+de pointeri la siruri. 
+	Apoi am avut diferite functii ce s-au mulat pe cerinta, precum numar_aparitii,
+ce numara de cate ori apare un cuvant intr-o linie. De asemenea, am folosit functie 
+my_replace ce inlocuieste un sir cu un alt sir.O alta functie folosita a fost 
+modificare,ce extrage cuvinte dupa campul fields si le concateneaza cu out_del.
+	In sort am folosit o functie medie care stoca intr-un vector mediile liniilor.
+Functia de ordonare este folosita pentru a ordona dupa vectorul de medii atat mediile
+cat si coloanele matricei.
+	In encrypt functia test verifica daca un cuvant este format doar din cifre sau nu.
+Codificare imi cripteaza cuvintele ce au rezultatul 0 in functia test(nu sunt formate doar din cifre).
+Codificarea se face conform cerintei, folosind "cheia".
+
+Doresc ca tema sa fie verificata local, deoarece intampin foarte multe erori din partea valgrind si pe vmchecker nu se poate vedea nota. Va multumesc!
+	
